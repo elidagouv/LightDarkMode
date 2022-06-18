@@ -3,7 +3,8 @@
 body {
     margin:0;
     padding:0;
-    background-color: rgb(243, 238, 233);
+    background-color: rgb(247, 239, 231);
+    
 }
 
 h1 {
@@ -28,12 +29,29 @@ h1 {
     border-radius: 20px;
 }
 
+.change, .change2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
 #circulo1 {
-    margin: 0 auto;
     border-radius: 50%;
     width: 30px;
     height: 31px;
-    background-color: black;
+    background-color: white;
     margin-top: -33px;
-    position: relative;
+    position: absolute;
+    margin-left: -59px;
+    
+}
+
+#circulo2 {
+    border-radius: 50%;
+    width: 30px;
+    height: 31px;
+    background-color: 0;
+    margin-top: -33px;
+    position: absolute;
+    margin-left: 60px;
 }
